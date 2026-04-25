@@ -20,7 +20,7 @@ var matrix2 = tensor(new float[,] { { 5, 6 }, { 7, 8 } });
 Console.WriteLine("Matrix 1:");
 Console.WriteLine(matrix1);
 Console.WriteLine("\nMatrix 2:");
-Console.WriteLine(matrix2.ToString());
+Console.WriteLine(matrix2);
 
 // Matrix addition
 var sum = matrix1 + matrix2;
